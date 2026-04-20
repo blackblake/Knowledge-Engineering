@@ -1,0 +1,10 @@
+uri,preferredLabel,altLabels,entityType,description
+esco:occupation:data_scientist,Data Scientist,数据科学家|算法工程师,OCC,Uses data analysis and machine learning to solve business problems.
+esco:occupation:ml_engineer,Machine Learning Engineer,机器学习工程师,OCC,Builds machine learning systems and model services.
+esco:skill:python,Python,python 编程|python 开发,SKL,General purpose programming language.
+esco:skill:pytorch,PyTorch,torch|火炬框架,TOL,Deep learning framework.
+esco:skill:transformers,Transformer Architecture,transformer 架构|transformers,KNW,Attention-based neural network architecture.
+esco:skill:ab_testing,A/B Testing,AB 测试|实验设计,KNW,Controlled experimentation and evaluation.
+esco:skill:communication,Communication,沟通能力,ABL,Ability to collaborate and communicate clearly.
+esco:skill:model_serving,Model Deployment,模型部署,TSK,Deploying trained models into production environments.
+esco:qualification:masters,Master Degree,硕士|硕士学历,QLF,Graduate education requirement.

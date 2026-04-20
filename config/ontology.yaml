@@ -1,0 +1,65 @@
+version: 1
+name: career_skill_kg
+entities:
+  - code: OCC
+    name: Occupation
+    name_zh: 职业
+    description: 岗位或职业角色
+  - code: SKL
+    name: Skill
+    name_zh: 技能
+    description: 可操作的专业技能
+  - code: KNW
+    name: Knowledge
+    name_zh: 知识
+    description: 领域知识或理论知识
+  - code: ABL
+    name: Ability
+    name_zh: 能力
+    description: 通用能力或认知能力
+  - code: TSK
+    name: Task
+    name_zh: 任务
+    description: 岗位承担的工作任务
+  - code: TOL
+    name: Tool
+    name_zh: 工具
+    description: 软件、框架、平台或技术栈
+  - code: QLF
+    name: Qualification
+    name_zh: 资格
+    description: 学历、证书、资质要求
+relations:
+  - code: REQUIRES_SKILL
+    source: OCC
+    target: SKL
+  - code: REQUIRES_KNOWLEDGE
+    source: OCC
+    target: KNW
+  - code: REQUIRES_ABILITY
+    source: OCC
+    target: ABL
+  - code: HAS_TASK
+    source: OCC
+    target: TSK
+  - code: USES_TOOL
+    source: OCC
+    target: TOL
+  - code: REQUIRES_QUALIFICATION
+    source: OCC
+    target: QLF
+  - code: PREREQUISITE_OF
+    source: SKL
+    target: SKL
+  - code: SIMILAR_TO
+    source: OCC
+    target: OCC
+edge_attributes:
+  - name: essential
+    type: bool
+  - name: evidence_count
+    type: int
+  - name: proficiency_level
+    type: string
+  - name: experience_years
+    type: float

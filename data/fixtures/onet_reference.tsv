@@ -1,0 +1,8 @@
+category	code	label	aliases	description
+SKL	2.A.1	Python	python scripting	Programming with Python.
+TOL	5.C.3	PyTorch	torch|pytorch framework	Deep learning engineering framework.
+KNW	2.C.1	Transformer Architecture	transformer|attention mechanism	Knowledge of transformer-based modeling.
+KNW	2.C.2	A/B Testing	experiment design|ab testing	Knowledge of controlled online experiments.
+ABL	1.A.1	Communication	team communication|stakeholder communication	Communication and collaboration ability.
+QLF	4.B.1	Master Degree	graduate degree|master's degree	Advanced academic qualification.
+TSK	3.D.1	Model Deployment	deploy models|model serving	Task of deploying ML models.

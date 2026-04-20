@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "job-skill-kg"
+version = "0.1.0"
+description = "Career-skill knowledge graph pipeline for the first three weeks of the course proposal."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "numpy>=2.1.0",
+  "pandas>=2.2.0",
+  "pyyaml>=6.0.1",
+  "rapidfuzz>=3.9.0",
+  "scikit-learn>=1.5.0",
+  "seqeval>=1.2.2",
+  "sklearn-crfsuite>=0.5.0",
+  "typer>=0.12.3",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.0",
+]
+training = [
+  "torch>=2.6.0",
+  "transformers>=4.51.0",
+]
+
+[project.scripts]
+kg-pipeline = "kg_project.cli:app"
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
