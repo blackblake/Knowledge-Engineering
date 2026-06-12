@@ -46,6 +46,7 @@ class NerExample:
     text: str
     tokens: list[str]
     labels: list[str]
+    metadata: dict[str, Any] = field(default_factory=dict)
 
 
 def write_jsonl(records: Iterable[dict[str, Any] | JobPosting | GazetteerEntry | NerExample], path: Path) -> None:

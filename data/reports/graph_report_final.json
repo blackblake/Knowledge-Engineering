@@ -1,0 +1,24 @@
+{
+  "num_nodes": 2630,
+  "num_edges": 1682476,
+  "num_relations": 11606,
+  "relation_counts": {
+    "REQUIRES_SKILL": 4959,
+    "USES_TOOL": 4942,
+    "REQUIRES_KNOWLEDGE": 1705,
+    "SIMILAR_TO": 1670858,
+    "PREREQUISITE_OF": 12
+  },
+  "alignment": {
+    "aligned_heads": 10802,
+    "aligned_tails": 11527,
+    "total_relations": 11606,
+    "head_coverage": 0.9307,
+    "tail_coverage": 0.9932
+  },
+  "fusion": {
+    "merged_entities": 2630,
+    "merged_relations": 11606,
+    "merged_alt_names": 3206
+  }
+}

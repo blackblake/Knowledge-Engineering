@@ -5,18 +5,22 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "job-skill-kg"
 version = "0.1.0"
-description = "Career-skill knowledge graph pipeline for the first three weeks of the course proposal."
+description = "Career-skill knowledge graph pipeline for the full course proposal implementation."
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
   "numpy>=2.1.0",
   "pandas>=2.2.0",
+  "pyarrow>=18.0.0",
   "pyyaml>=6.0.1",
   "rapidfuzz>=3.9.0",
   "scikit-learn>=1.5.0",
   "seqeval>=1.2.2",
   "sklearn-crfsuite>=0.5.0",
   "typer>=0.12.3",
+  "fastapi>=0.115.0",
+  "uvicorn>=0.32.0",
+  "neo4j>=5.26.0",
 ]
 
 [project.optional-dependencies]

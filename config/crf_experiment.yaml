@@ -1,0 +1,48 @@
+seed: 42
+paths:
+  external_dir: data/external/crf
+  processed_dir: data/processed/crf
+  reports_dir: data/reports
+  gazetteer_path: data/processed/crf/formal_gazetteer.jsonl
+  train_path: data/processed/crf/skillspan_train.jsonl
+  dev_path: data/processed/crf/skillspan_dev.jsonl
+  test_path: data/processed/crf/skillspan_test.jsonl
+  jd_sample_path: data/processed/crf/jd_sample.jsonl
+  coverage_path: data/reports/crf_jd_coverage.json
+  report_json_path: data/reports/crf_experiment.json
+  report_md_path: data/reports/crf_experiment.md
+sources:
+  skillspan:
+    split_urls:
+      train: https://huggingface.co/datasets/jjzha/skillspan/resolve/main/train.json
+      dev: https://huggingface.co/datasets/jjzha/skillspan/resolve/main/dev.json
+      test: https://huggingface.co/datasets/jjzha/skillspan/resolve/main/test.json
+  onet:
+    text_zip_url: https://www.onetcenter.org/dl_files/database/db_23_1_text.zip
+  esco:
+    required: false
+    download_page: https://esco.ec.europa.eu/en/use-esco/download
+    confirmation_url: https://esco.ec.europa.eu/en/download/confirmation?q=ajBCZmlKMmNyV1FJY3F3UklUMzQxQkxTMlZOZmY0am45b0pscVlmbjdEMnhYMExSTmovbmRXMlRzZ3BUVldGMUFPdXdJSWxCYjFzOWVUUmorT2hjS2FBaENzdytKbDR4RUFpdUIyMXlMSkN2L2FpZE9yUlVWNHgySVVkMjcvVGhGOVJRK09uUW4zaUdNSGtQd0k3SjlobzVCYVVxV3A0dnR3M1VHQ1owWkNlS0I1ZUpkdU5HSHE2RmVGUExRK3pRSUVJWVN0bkdpM3dtRlc5L2htR01EQTEzMjVsck9JOWlZSCsxYUJlSGptcit3Zk1jVVhicXFWTTNXd1Z4SDJMM2VWNktOcFZKREdYSy8zUHV2K3QvTmprSXNCZkMzWUlyQml2emVmUDJjTDg9
+  jd:
+    parquet_url: https://huggingface.co/datasets/lang-uk/recruitment-dataset-job-descriptions-english/resolve/main/data/train-00000-of-00001.parquet
+    max_samples: 10000
+    min_chars: 200
+    target_keywords:
+      - data
+      - machine learning
+      - software
+      - engineer
+      - developer
+      - analyst
+      - scientist
+experiments:
+  crf_base:
+    use_gazetteer: false
+    c1: 0.1
+    c2: 0.1
+    max_iterations: 100
+  crf_gazetteer:
+    use_gazetteer: true
+    c1: 0.1
+    c2: 0.1
+    max_iterations: 100

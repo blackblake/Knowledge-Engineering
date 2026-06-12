@@ -27,3 +27,14 @@ data/models/*
 
 data/reports/*
 !data/reports/.gitkeep
+!data/reports/knowledge_graph_final_report.pdf
+!data/reports/knowledge_graph_final_report.md
+!data/reports/graph_report_final.json
+!data/reports/report_app_examples.json
+!data/reports/report_assets/
+!data/reports/report_assets/*.png
+
+logs/
+.tmp_*.txt
+neo4j-community-*/
+neo4j-community-*-windows.zip

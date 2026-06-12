@@ -1,0 +1,2204 @@
+{
+  "summary": {
+    "num_nodes": 2630,
+    "num_edges": 1682476,
+    "relations": [
+      "PREREQUISITE_OF",
+      "REQUIRES_KNOWLEDGE",
+      "REQUIRES_SKILL",
+      "SIMILAR_TO",
+      "USES_TOOL"
+    ],
+    "backend": "csv"
+  },
+  "recommend_java": {
+    "recommendations": [
+      {
+        "occupation": "Big Data Developer/Java",
+        "hit_count": 3,
+        "score": 0.395519,
+        "match_weight": 2.079442,
+        "title_hit_count": 1
+      },
+      {
+        "occupation": "AI Developer",
+        "hit_count": 3,
+        "score": 0.097461,
+        "match_weight": 13.75007,
+        "title_hit_count": 0
+      },
+      {
+        "occupation": "Back-End-Developer",
+        "hit_count": 3,
+        "score": 0.082324,
+        "match_weight": 13.057761,
+        "title_hit_count": 0
+      },
+      {
+        "occupation": "Automation QA engineer",
+        "hit_count": 3,
+        "score": 0.100417,
+        "match_weight": 12.952761,
+        "title_hit_count": 0
+      },
+      {
+        "occupation": "Automation QA",
+        "hit_count": 3,
+        "score": 0.114762,
+        "match_weight": 11.016742,
+        "title_hit_count": 0
+      }
+    ],
+    "matched_inputs": [
+      "Java",
+      "Spring",
+      "SQL"
+    ],
+    "unmatched_inputs": [],
+    "backend": "csv"
+  },
+  "gap_python": {
+    "occupation": "Python Developer",
+    "missing_skills": [],
+    "backend": "csv"
+  },
+  "profile_python": {
+    "occupation": "Python Developer",
+    "relations": [
+      {
+        "relation": "REQUIRES_KNOWLEDGE",
+        "target": "Machine Learning",
+        "target_type": "KNW",
+        "evidence_count": 1
+      },
+      {
+        "relation": "REQUIRES_SKILL",
+        "target": "Python",
+        "target_type": "SKL",
+        "evidence_count": 1
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Production Specialist/Technical Support",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "3rd Line / Software Maintenance Engineer",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Senior Windows Server Engineer",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Access Managment Specialist",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Acoustic ML engineer",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AI Engineer/Researcher",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AI GPU Senior Software Architect",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AI Integration developer",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AI Research Engineer",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AI Scientist",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Analyst Automated Trace Analysis",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Android Automotive",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Android developer for fintech company",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Angular/Ionic FrontEnd Software Developer",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Annotator",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Application DevOps Engineer",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Application Engineer DevOps",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Application Engineer / VCSEL and IR application / For this position we are looki",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Applied DL Researcher",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Engineer IRC162619",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AQA , Transport Booking System",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AQ Automation with Salesforce experience",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Artificial Intelligence Manager",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "a Senior System Administrator who is interested in Automated Quality Assurance",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "ASIC back-end engineer trainee position",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Associate / Middle Data Processing Engineer",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Engineer #10359",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Associate QA Automation Engineer #8305",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Autobrains| Computer Vision Engineer/Scientist",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automated Test Developer for Embedded Systems",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automated Test Engineer Expert",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation #11500",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation Team Lead #9940",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Engineer for Coronet",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation Team Leader for Ciklum",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Cloud Architect / DevOps",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Cloud Engineer with certifications",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS DevOps professional",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Expert",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Security/DevOps engineer",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Software engineer",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Technologies Lead",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Azure Cloud Engineering Lead",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Azure devop/Data Engineer",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Azure Technologies Lead",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BA / Business Analyst for Airbyte",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Tech Lead #9558",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend developer for AI Platform",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Developer for AutoGPT",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "eBay SDK, GraphQl, Graphene-Python,",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Engineer and DeFi Researcher",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Engineer for HR Platform",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "- WOO Network",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end ME #10336",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Senior #10487",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Senior #9793",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Senior Engineer #10835",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Team Lead #11336",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Team Lead #8567",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Technical Leader",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend with DevOps Engineer - Poland",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Developer / MIS Developer",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big Data Administrator",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big Data Engineer with ElasticSearch experience",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big Data Quality Assurance Engineer",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big Data Specialist",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Blockchain / NFT / Web3.0 Developer",
+        "target_type": "OCC",
+        "evidence_count": 100
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "1C Solution and Support Developer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Data Scientist",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AQA Middle/Senior",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Web Developers",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "3d Animator",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "3D Graphics Developer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "3D ML engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "3D Senior Animator",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "ADAS Test Engineer - Vehicle",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Advanced Android Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Advanced DBA Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Advanced DevOps",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Advanced DevOps Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Advanced Software Engineer - DBA",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Agile Project Management Lead",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AI Developer - Computer Vision Specialist",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AI/ML Computer Vision Engineer | Creative analytics platform",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AI/ML Developer with experience in computer vision",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AI/ML Lead",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AI / Neural Networks Team Lead",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Algorithm/Deep Learning Developer/Researcher",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Algorithm Developer - Corsound AI",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Algorithms developer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Algorithm Verification Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Analog and Digital electronics Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Analytics Engineer / BI Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Android Developer, Communications Services",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Ansible Automation Engineer – CI/CD Automation",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "API Automation Engineer/QA",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "API Software Engineer for NLP Project",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Application architect/Tech lead",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Application/Customer Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Application Security Engineer in Billing Stream",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Application Security Engineer / SecOps",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AQA Engineer/ SDET",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Engineer IRC105257",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AQA Specialist",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Architect/DevOps",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Architect / Staff Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Artificial Intelligence and Neural Networks Specialist",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Artificial Intelligence Consultant",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Associate Developer C++",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Associate DevOps Engineer #10612",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Associate Manual QA Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Associate QA Automation Engineer #8493",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "ATE Test Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "ATQC engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Audio Algorithm Expert / NLP",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automated QA",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automated Tester with Python",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation Developer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation Engineering Intern",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation Junior QA Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation ME #11435",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation ME # 11496",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation Middle",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Team Lead #10991",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Engineer #10922",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Engineer @DashFight",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Engineer for Guardicore",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA engineer for Harmonic",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Engineer in a US Behavioral Health Company",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "expertise",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "for US product company",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA IRC102468",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Team Lead #10647",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Team Leader for Guardicore",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Test Lead",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA / IPLM project from California",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation Senior Test Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation Software Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation Test Engineer Intern",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation Trainee Test Engineer Python",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation SE #11028",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Autonomy Solutions Developer/Tech Lead",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AUTOSAR Embedded Software Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS/Alibaba Technical Lead - work only from Poland",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Application Developer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Cloud/DevOps Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Devops Engeneer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS DevOps Engineer for Ciklum Digital",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS DevOps Engineer, Mortgage Provider",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Security Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Senior System Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Azure Architecture Consultant",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Azure DevOps IRC109983",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Azure DevOps Lead/Senior",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Cards Specialist",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Developer for a Fintech",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end developer Golang",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "5+",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Developers with REST based Open APIs and understanding of microservices",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": ", Golang",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Developer with ML skills",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "/ CQRS",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back End Engineer / ORIGYN",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Engineer, Platform Security & Admin Experience Team",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Engineer - Python/Django",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Golang Team Lead #9797",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Developer для ізраїльського стартапу на NFT",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end or full-stack developer for language learning apps",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Architect #10580",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Python/Django Developer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Middle #8916",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Senior #9028",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Team Lead #12508",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Team Lead #13284",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-End Server QA Automation Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Software and Data Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backup Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Analyst/Developer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Analyst, Sr",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Analytics for Ciklum Client",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI and Database Team Leader",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Data Analyst Specialist",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Data Engineer for Daxx New Client",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Developer Content IQ",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI developer/Data engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Developer - Data Platform Team",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Developer with Tableau/Python",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Engineer/Tableau Developer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big Data Architect with Elastic Stack_",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BigData/AWS Developer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BigData Developer with GCP",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BigData Engineer #10059",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big Data Engineer IRC135967",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Skills, Banking Apps",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Bioinformatician",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Bioinformatics/Cheminformatics Scientist",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Biotech and Prediction team leader",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BizOps Data Analyst",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Blockchain developer for a web3 project",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Blockchain Developer for Cryptocurrency Arbitrage Bot",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Blockchain Еngineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BODS Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Build and Automation Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Build and Release Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Building Science. Research and Prototyping Engineer",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Build Manager",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Build/Release Engineer to Harmonic",
+        "target_type": "OCC",
+        "evidence_count": 50
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Senior",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Senior Full Stack Developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Application Security Engineers",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "3D Computer Vision and Deep Learning Developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "3D Computer Vision Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "3D Graphics Diagnostics Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "3D Software Developer/ Technical Artist",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "3D Visualization Software Engineer/Architect",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "A Copywriter for a new Corporate Marketing Website",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Advanced Big Data Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Advanced",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Advisory Software Engineer/PHP Developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AI/Machine Learning Consultant",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AI/ML Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AI Software Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Algorithms Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Developer / Lead",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Algorithms Software Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AL/ML Summer Intern",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Analyst/ Data scientist",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Analytics Architect",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Analytics Engineer / BI Developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Analytics Insights",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Android Developer for Automotive",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Android developer for Berlin music tech company",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Android developer with ML",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Android Engineer #13221",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Angular/React.js Team Lead full-stack",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Apache Airflow ETL Developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "API Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "API Integration Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "API Solution Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Apliqo| Front End Developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "IRC162259",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Application Developer / Credit Risk Product",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Application Developer / Credit Risk Products",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Application engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Application Operations Analyst",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Application Specialist",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Application Specialist | Presenso| SKF",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AQA Engineer with Python/Spark",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AQA . R&D FinTech project for USA clients",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Lead - Poland",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Architect for Data Warehouse SaaS solution",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Architect with exposure to ML Опцион",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "ASR / NLP Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Associate Project Manager",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Associate QA Automation Engineer #10718",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Associate Reliability Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "A star - DevOps Engineer - Fyber",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automated program analysis expert",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automated Software Tester",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automatic Speech Recognition ASR Developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automatic Speech Recognition Developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation and QA engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation/Backend/DevOps engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation Developer Team Lead",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation JS Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA\\DQ\\DA",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Engineer / Comeet",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Engineer for Product Team",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Engineer IRC104861",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Engineer Automotive",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Engineer /QA Engineer в американський продукт з розпізнавання мови",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Engineer with JS",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA for Day.io",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA for Oitchau",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Manager",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA Trainee for Video Editing App",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation QA with knowledge of performance testing",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation Test Engineer for IoT project",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automation SE Engineer #13305",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Automotive Software Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Autonomous Ships Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Autosar engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AUTOSAR Engineer for Automotive Projects",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Autosys Administrator",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Avatar Control Sr Engineer / Technical Lead",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Account Manager",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Cloud Developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Data Architect",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "AWS Infrastructure Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Azure Cloud/DevOps Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Azure Data Bricks and Python/Java Engineer - Poland or relocation to Poland",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Azure DevOps Engineer, Bucharest",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Azure Integration Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-End / Cloud Developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Tech Lead #7914",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Developer for Aerospace Project",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Developer. High Frequency Trading and Stat Arb",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "+",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end developer Python-Java",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BackEnd Developer with AI&Analitics",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back End Developer with AI & Analytics",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Developer with DevOps skills",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Engineer and Technical Lead for Exabeam",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back End Engineer/Data Engineers",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Engineer for a Product Company",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Engineer for SaaS in GERMANY",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend JS Developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Lead",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Middle #13688",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end/ Python Developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-End [Python/Django] Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "ML Senior Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back-end Team Lead #10446",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend RoR Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Software Engineer - SaaS Integrations",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Software Engineer **** Microservices******",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back End Team Leader and Scrum Master",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Back End Team Leader and Scrum Master for Quali",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Backend Tech Lead PHP/Symfony, Python",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Back-end developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI/Data Analyst Lead, Social Networking Platform",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI QA",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Developer #2882",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Developer\\Data Analyst",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Engineer / Data Analyst",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big Data Architect with ELK",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BigData Developer, Media Conglomerate",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big Data Engineer , Banking System",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big Data Engineer Senior/Lead",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "/ Airflow / GCP",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big data full stack developer with good communication skills",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big Data Middle engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big Data Middle/Senior engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big data Project manager",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big Data Senior Software Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big Data Solution Consultant",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Big Data Systems Engineer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BigData trainer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BigData Trainer, Poland",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI/Product Analyst",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI Specialist",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "BI specialist for global product",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Blockchain EIR",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Blockchain Manager",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Blockchain mining developer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "SIMILAR_TO",
+        "target": "Build System Programmer",
+        "target_type": "OCC",
+        "evidence_count": 33
+      },
+      {
+        "relation": "USES_TOOL",
+        "target": "Redis",
+        "target_type": "TOL",
+        "evidence_count": 1
+      },
+      {
+        "relation": "USES_TOOL",
+        "target": "K8s",
+        "target_type": "TOL",
+        "evidence_count": 1
+      },
+      {
+        "relation": "USES_TOOL",
+        "target": "TensorFlow",
+        "target_type": "TOL",
+        "evidence_count": 1
+      },
+      {
+        "relation": "USES_TOOL",
+        "target": "Git",
+        "target_type": "TOL",
+        "evidence_count": 1
+      },
+      {
+        "relation": "USES_TOOL",
+        "target": "Docker",
+        "target_type": "TOL",
+        "evidence_count": 1
+      }
+    ],
+    "backend": "csv"
+  },
+  "growth_path": {
+    "path": [
+      "Python Developer",
+      "Automation QA engineer for Harmonic",
+      "Java Backend Developer"
+    ],
+    "reason": "similarity_graph",
+    "backend": "csv"
+  }
+}

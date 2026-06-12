@@ -6,11 +6,14 @@ from typing import Any
 try:
     import torch
     from torch import Tensor, nn
-    from transformers import AutoModel
 except ImportError:  # pragma: no cover - exercised only when training deps are absent.
     torch = None
     Tensor = Any
     nn = None
+
+try:
+    from transformers import AutoModel
+except ImportError:  # pragma: no cover - exercised only when training deps are absent.
     AutoModel = None
 
 
@@ -25,7 +28,7 @@ def ensure_training_dependencies() -> None:
         )
 
 
-if torch is not None:
+if torch is not None and nn is not None:
 
     class LinearChainCRF(nn.Module):
         def __init__(self, num_tags: int) -> None:
@@ -121,7 +124,14 @@ if torch is not None:
     class BertCRF(nn.Module):
         def __init__(self, model_name: str, num_labels: int, encoder: nn.Module | None = None) -> None:
             super().__init__()
-            self.encoder = encoder if encoder is not None else AutoModel.from_pretrained(model_name)
+            if encoder is not None:
+                self.encoder = encoder
+            else:
+                if AutoModel is None:
+                    raise MissingTrainingDependencyError(
+                        "Transformers are not installed. Install with `pip install -e \".[training]\"`."
+                    )
+                self.encoder = AutoModel.from_pretrained(model_name)
             self.dropout = nn.Dropout(0.2)
             self.classifier = nn.Linear(self.encoder.config.hidden_size, num_labels)
             self.crf = LinearChainCRF(num_labels)
